@@ -1,1 +1,15 @@
 eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
+---
+spring:
+  profiles: subject
+  words: We,They,Joe,Shelly,It 
+  
+---
+spring:
+  profiles: verb
+  words: liked,knew,had,saw,bought
+
+---
+spring: 
+  profiles: noun
+  words: boat,book,vote,seat,backpack,partition,groundhog  
